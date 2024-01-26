@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/tvPizzaOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizza_order"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvOrderNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order_number_label"
+        android:textSize="20sp"
+        android:layout_below="@id/tvPizzaOrder"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/OrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvOrderNumberLabel"
+        android:layout_alignBaseline="@id/tvOrderNumberLabel"
+        android:textSize="20sp"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/PizzaOrdersList"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_below="@id/OrderNumber"
+        android:layout_marginTop="20dp" />
+
+
+    <TextView
+        android:id="@+id/tvSubtotalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PizzaOrdersList"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/subtotal_label"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSubtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvSubtotalLabel"
+        android:layout_marginStart="1dp"
+        android:layout_toEndOf="@id/tvSubtotalLabel"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSalesTaxLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSubtotalLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/sales_tax_label"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvSalesTax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/tvSalesTaxLabel"
+        android:layout_alignBaseline="@id/tvSalesTaxLabel" />
+
+    <TextView
+        android:id="@+id/tvTotalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSalesTaxLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/order_total_label"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/tvTotalLabel"
+        android:layout_alignBaseline="@id/tvTotalLabel" />
+
+    <Button
+        android:id="@+id/btnRemovePizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTotalLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/remove_pizza" />
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btnRemovePizza"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/btnRemovePizza"
+        android:text="@string/place_order" />
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_main_menu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

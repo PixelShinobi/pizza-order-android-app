@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Pizza</string>
+    <string name="pizza_added_to_order">Pizza added to the order!</string>
+    <string name="select_topping_to_add">Please select a topping to add.</string>
+    <string name="max_toppings_reached">At most 7 toppings!</string>
+    <string name="select_topping_to_remove">Please select a topping to remove.</string>
+    <string name="select_pizza_to_remove">Please select a pizza to remove.</string>
+    <string name="order_placed_successfully">Order placed successfully.</string>
+    <string name="no_pizzas_in_order">No pizzas in the order.</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="confirm_order_message">Are you sure you want to place this order?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="select_order_to_cancel">Please select an order to cancel.</string>
+    <string name="cancel_order_confirmation_title">Cancel Order</string>
+    <string name="cancel_order_confirmation_message">Are you sure you want to cancel this order?</string>
+    <string name="order_canceled">Order canceled successfully.</string>
+    <string name="go_back_to_main_menu">Go Back to Main Menu</string>
+    <string name="ru_pizza">The Pizza Hub</string>
+    <string name="specialty_pizzas">Specialty Pizzas</string>
+    <string name="build_your_own">Build Your Own</string>
+    <string name="current_order">Current Order</string>
+    <string name="store_orders">Store Orders</string>
+    <string name="pizza_size">Pizza size</string>
+    <string name="tomato_sauce">Tomato Sauce</string>
+    <string name="alfredo_sauce">Alfredo Sauce</string>
+    <string name="extra_cheese">Extra Cheese</string>
+    <string name="extra_sauce">Extra Sauce</string>
+    <string name="additional_toppings">Additional Toppings</string>
+    <string name="selected_toppings">Selected Toppings</string>
+    <string name="price">Price $</string>
+    <string name="add_to_order">Add to Order</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="pizza_order">Pizza Order</string>
+    <string name="order_number_label">Order Number:</string>
+    <string name="subtotal_label">Subtotal $</string>
+    <string name="sales_tax_label">Sales Tax $</string>
+    <string name="order_total_label">Order Total $</string>
+    <string name="remove_pizza">Remove Pizza</string>
+    <string name="place_order">Place Order</string>
+    <string name="back_to_main_menu">Go Back to Main Menu</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="go_back">Go Back</string>
+    <string name="pizza_info">Pizza Info</string>
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+
+
+
+</resources>
